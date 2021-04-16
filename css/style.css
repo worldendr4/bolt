@@ -1,0 +1,222 @@
+.color-dg {
+  color: #4e4e4e;
+}
+.color-gr {
+  color:#f2f2f2;
+}
+.color-gle {
+  color:#74cfae;
+}
+.color-bk {
+  color:#333;
+}
+.color-wh {
+  color:#fff;
+}
+.backcolor-gle{
+  background-color:#74cfae;
+}
+
+.i {
+  font-size: 40px;
+}
+.header {
+  position: fixed;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  top: 0;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact {
+  padding: 14px 12px;
+  background-color: #74cfae;
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+  transition: all .3s;
+}
+.contact:hover{
+  color: #333;
+}
+
+.tittle {
+  background-color: #f2f2f2;
+  height: 640px;
+  width:100%;
+}
+.BT{
+  font-size: 90px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 250px;
+  margin-bottom:20px;
+}
+.FBT{
+  font-size: 30px;
+  text-align: center;
+  color: #c0c0c0;
+  padding-bottom: 250px;
+}
+
+/* ーーーーーー改善点ーーーーーー */
+.section-wwcd{
+  display:flex;
+  justify-content: center;
+  width:100%;
+  background-color: #74cfae;
+}
+.section-center{
+  width: 65%;
+  display:flex;
+  justify-content: center;
+}
+
+.phone{
+  padding-top: 50px;
+}
+.section-wwcd-inner{
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin-left: 15%;
+}
+.in-tittle{
+  font-size: 24px;
+  padding-top: 60px;
+}
+.in-text{
+  margin-top: 35px;
+  font-size: 20px;
+  word-break: break-all;
+}
+/* ーーーーーー改善点ーーーーーー */
+
+.section-olw{
+  width:100%;
+  background-color: #f2f2f2;
+}
+.olw-tittle{
+  font-size: 24px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.olw-images{
+  width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  list-style: none;
+  padding-top: 40px;
+}
+.olw-images li{
+  float: left;
+  margin-left:50px;
+  margin-right:50px;
+  margin-bottom: 80px;
+  padding: 0;
+}
+.img{
+  opacity: 0.7;
+  transition: all .3s;
+}
+.img:hover{
+  opacity: 1.0;
+}
+.img:nth-child(2n+1) {
+  clear: none;
+}
+.img:nth-child(3n+1) {
+  clear: both;
+  margin-left:0px;
+}
+.mail-discrive{
+  padding-top: 10px;
+  display :flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+.mail-discrive-text{
+  width:580px;
+  word-break: break-all;
+  text-align: center;
+  padding-right: 90px;
+}
+.mail-button{
+  padding: 14px 20px;
+  background-color: #74cfae;
+  transition: all .3s;
+}
+.mail-button:hover{
+  color:#333
+}
+
+
+.our-skill-back{
+  width: 100%;
+  background-color: #4e4e4e;
+}
+.our-skills-text{
+  padding-top: 70px;
+  text-align: center;
+  font-size: 24px;
+}
+.skill-card{
+ display: flex;
+ justify-content: center;
+ list-style: none;
+}
+.skill{
+  list-style: none;
+  margin-top: 90px;
+  margin-left: 90px;
+  margin-right: 90px;
+  text-align: center;
+}
+.classimg{
+  margin-bottom: 10px;
+}
+.skill-name{
+  font-size: 16px;
+  padding-bottom: 100px;
+}
+
+
+.navi{
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.navi-inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navi-inner-inner{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  transition: all .3s;
+}
+.navi-inner-inner:hover{
+  background-color: #fff;
+}
+.works-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 185px;
+  height: 100px;
+}
+
+
+.logoinc{
+  padding-top: 20px;
+  padding-bottom: 25px;
+  text-align: right;
+  padding-right: 10%;
+}
