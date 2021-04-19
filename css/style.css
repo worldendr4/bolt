@@ -23,11 +23,19 @@
 .backcolor-dg {
   background-color:#4e4e4e;
 }
+.backcolor-fff{
+  background-color: #fff;
+}
 .full {
   width: 100%;
 }
 .flex {
   display: flex;
+}
+.inner{
+  margin: 0 auto;
+  width: 1100px;
+  max-width: 100%;
 }
 /* ------header------- */
 .i {
@@ -40,7 +48,10 @@
   top: 0;
 }
 .header-inner {
-  justify-content: space-around;
+  margin: 0 auto;
+  width: 1100px;
+  max-width: 100%;
+  justify-content: space-between;
   align-items: center;
 }
 .contact {
@@ -48,6 +59,7 @@
   background-color: #74cfae;
   padding: 14px 12px;
   font-weight: bold;
+  text-decoration: none;
   font-size: 12px;
   transition: all .3s;
 }
@@ -57,25 +69,25 @@
 /* ------div------ */
 .tittle-inner {
   text-align: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 .BT {
   font-size: 90px;
   font-weight: 700;
-  padding-top: 250px;
   margin-bottom:20px;
 }
 .FBT {
   font-size: 30px;
   color: #c0c0c0;
-  padding-bottom: 250px;
 }
 /* ------section------ */
 .section-inner {
   justify-content: center;
+  padding-top: 50px;
 }
 .section-inner-inner {
-  padding-top: 50px;
-  width: 65%;
+  width: 82.7%;
   padding-left: 5%;
 }
 .section-wwcd-inner {
@@ -93,13 +105,16 @@
   word-break: break-all;
 }
 /* ------article------ */
+.artical-inner{
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
 .olw-tittle-inner {
   font-size: 24px;
   text-align: center;
-  padding-top: 60px;
 }
 .olw-images-inner {
-  width: 1200px;
+  width: 1100px;
   margin: auto;
   overflow: hidden;
   list-style: none;
@@ -107,8 +122,7 @@
 }
 .olw-images-inner li {
   float: left;
-  margin-left:50px;
-  margin-right:50px;
+  margin-right:100px;
   margin-bottom: 80px;
 }
 .img {
@@ -118,36 +132,41 @@
 .img:hover {
   opacity: 1.0;
 }
-.img:nth-child(2n+1) {
-  clear: none;
-}
-.img:nth-child(3n+1) {
-  clear: both;
-  margin-left:0px;
+.img:nth-child(3n) {
+  margin-right:0px;
 }
 .mail-discrive-inner {
   padding-top: 10px;
   display :flex;
   justify-content: center;
-  padding-bottom: 70px;
 }
 .mail-discrive-text {
-  width:580px;
-  word-break: break-all;
   text-align: center;
   padding-right: 90px;
 }
+.text{
+  width: 530px;
+}
+
 .mail-button {
   padding: 14px 20px;
+  margin-bottom: 16px;
   background-color: #74cfae;
+  text-decoration: none;
   transition: all .3s;
+  font-size: 12px;
+  word-break: break-all;
 }
 .mail-button:hover {
   color:#333
 }
 /* ------section------ */
-.our-skills-text-inner {
+.skills-inner{
   padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.our-skills-text-inner {
   text-align: center;
   font-size: 24px;
 }
@@ -168,20 +187,22 @@
 }
 .skill-name {
   font-size: 16px;
-  padding-bottom: 100px;
 }
 /* ------nav------ */
 .navi-inner {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .navi-inner-inner {
   text-align: center;
-  font-size: 25px;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  font-size: 30px;
   transition: all .3s;
+}
+.works-img{
+  color:#74cfae
 }
 .navi-inner-inner:hover {
   background-color: #fff;
@@ -198,5 +219,7 @@
   padding-top: 20px;
   padding-bottom: 25px;
   text-align: right;
-  padding-right: 10%;
 }
+.logo {
+  padding-right: 10%;
+  }
