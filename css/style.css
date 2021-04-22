@@ -49,6 +49,7 @@
 }
 .header {
   position: fixed;
+  z-index: 1;
 }
 .header-inner {
   padding-top: 15px;
@@ -65,6 +66,9 @@
 }
 .contact:hover {
   color: #333;
+}
+.main{
+  padding-top: 70px;
 }
 /* ------div------ */
 .tittle-inner {
@@ -95,9 +99,13 @@
   box-sizing: border-box;
   margin-left: 15%;
 }
+.phone{
+  vertical-align:top;
+}
 .in-tittle  {
   font-size: 24px;
-  padding-top: 10px;
+  margin-top: 10px;
+  font-family: Raleway;
 }
 .in-text{
   margin-top: 35px;
@@ -112,6 +120,7 @@
 .olw-tittle-inner {
   font-size: 24px;
   text-align: center;
+  font-family: Raleway;
 }
 .olw-images-inner {
   width: 1100px;
@@ -128,6 +137,9 @@
   display: block;
   clear: both;
 }
+.picture{
+  vertical-align: top;
+}
 .img {
   opacity: 0.7;
   transition: all .3s;
@@ -141,7 +153,6 @@
 .img:nth-child(n+4){
   margin-top: 80px;
 }
-
 .mail-discrive-inner {
   margin-top: 90px;
   display :flex;
@@ -150,7 +161,7 @@
 }
 .mail-discrive-text {
   text-align: center;
-  padding-right: 90px;
+  margin-right: 90px;
 }
 .text{
   width: 530px;
@@ -234,6 +245,8 @@
   }
 
   @media screen and (min-width: 768px) and ( max-width:1199px){
+    /* ------section------ */
+
 
   }
 
