@@ -42,14 +42,17 @@
   font-size: 40px;
   margin-left: 5%;
 }
+.inner-controll{
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+}
 .header {
   position: fixed;
 }
 .header-inner {
   padding-top: 15px;
   padding-bottom: 15px;
-  justify-content: space-between;
-  align-items: center;
 }
 .contact {
   color: #fff;
@@ -58,7 +61,6 @@
   font-weight: bold;
   text-decoration: none;
   font-size: 12px;
-  margin-right: 5%;
   transition: all .3s;
 }
 .contact:hover {
@@ -120,7 +122,6 @@
 .olw-images-inner li {
   float: left;
   margin-left:100px;
-  margin-bottom: 80px;
 }
 .clearfix::after {
   content: " ";
@@ -137,8 +138,12 @@
 .img:nth-child(3n+1) {
   margin-left:0px;
 }
+.img:nth-child(n+4){
+  margin-top: 80px;
+}
+
 .mail-discrive-inner {
-  padding-top: 10px;
+  margin-top: 90px;
   display :flex;
   justify-content: center;
 }
@@ -180,14 +185,15 @@
 }
 .skill {
   list-style: none;
-  margin-left: 90px;
-  margin-right: 90px;
+  margin-left: 180px;
   text-align: center;
 }
-.classimg {
-  margin-bottom: 10px;
+.skill:first-child{
+  margin-left: 0;
 }
+
 .skill-name {
+  margin-top: 10px;
   font-size: 16px;
 }
 /* ------nav------ */
@@ -225,4 +231,12 @@
 }
 .logo {
   padding-right: 10%;
+  }
+
+  @media screen and (min-width: 768px) and ( max-width:1199px){
+
+  }
+
+  @media screen and (max-width: 767px) {
+
   }
