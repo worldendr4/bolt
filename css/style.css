@@ -146,6 +146,7 @@
   margin-top: 90px;
   display :flex;
   justify-content: center;
+  align-items: start;
 }
 .mail-discrive-text {
   text-align: center;
@@ -157,7 +158,6 @@
 
 .mail-button {
   padding: 14px 20px;
-  margin-bottom: 16px;
   background-color: #74cfae;
   text-decoration: none;
   transition: all .3s;
