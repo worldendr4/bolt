@@ -1,3 +1,7 @@
+@charset "utf-8";
+body {
+  font-family:Raleway;
+}
 .color-gle {
   color:#74cfae;
 }
@@ -13,8 +17,7 @@
 .color-wh {
   color:#fff;
 }
-
-.backcolor-gle  {
+.backcolor-gle {
   background-color:#74cfae;
 }
 .backcolor-gr {
@@ -32,24 +35,31 @@
 .flex {
   display: flex;
 }
+.block{
+  display: inline-block;
+}
 .inner{
   margin: 0 auto;
   width: 1100px;
   max-width: 100%;
 }
 /* ------header------- */
-.header-contents{
+.fa-bolt {
+  font-size: 40px;
+}
+.header-contents {
   font-size: 40px;
   margin-left: 5%;
 }
-.inner-controll{
+.inner-controll {
   width: 95%;
   justify-content: space-between;
   align-items: center;
 }
 .header {
   position: fixed;
-  z-index: 1;
+  z-index: 100;
+  top: 0;
 }
 .header-inner {
   padding-top: 15px;
@@ -67,7 +77,7 @@
 .contact:hover {
   color: #333;
 }
-.main{
+.main {
   padding-top: 70px;
 }
 /* ------div------ */
@@ -99,21 +109,21 @@
   box-sizing: border-box;
   margin-left: 15%;
 }
-.phone{
+.phone {
   vertical-align:top;
 }
 .in-tittle  {
   font-size: 24px;
   margin-top: 10px;
-  font-family: Raleway;
 }
-.in-text{
+.in-text {
   margin-top: 35px;
   font-size: 20px;
   word-break: break-all;
+  font-family: Lato;
 }
 /* ------article------ */
-.artical-inner{
+.artical-inner {
   padding-top: 60px;
   padding-bottom: 70px;
 }
@@ -137,7 +147,7 @@
   display: block;
   clear: both;
 }
-.picture{
+.picture {
   vertical-align: top;
 }
 .img {
@@ -150,7 +160,7 @@
 .img:nth-child(3n+1) {
   margin-left:0px;
 }
-.img:nth-child(n+4){
+.img:nth-child(n+4) {
   margin-top: 80px;
 }
 .mail-discrive-inner {
@@ -161,9 +171,8 @@
 }
 .mail-discrive-text {
   text-align: center;
-  margin-right: 90px;
 }
-.text{
+.text {
   width: 530px;
 }
 
@@ -174,12 +183,13 @@
   transition: all .3s;
   font-size: 12px;
   word-break: break-all;
+  margin-left: 90px;
 }
 .mail-button:hover {
   color:#333
 }
 /* ------section------ */
-.skills-inner{
+.skills-inner {
   padding-top: 70px;
   padding-bottom: 100px;
 }
@@ -189,23 +199,24 @@
   font-size: 24px;
 }
 .skill-gage-inner {
- display: flex;
- justify-content: center;
- list-style: none;
- margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 90px;
 }
 .skill {
   list-style: none;
   margin-left: 180px;
   text-align: center;
 }
-.skill:first-child{
+.skill:first-child {
   margin-left: 0;
 }
 
 .skill-name {
   margin-top: 10px;
   font-size: 16px;
+  font-family: Lato;
 }
 /* ------nav------ */
 .navi-inner {
@@ -221,7 +232,7 @@
   font-size: 30px;
   transition: all .3s;
 }
-.works-img{
+.works-img {
   color:#74cfae
 }
 .navi-inner-inner:hover {
@@ -246,6 +257,7 @@
 
   @media screen and (min-width: 768px) and ( max-width:1199px){
     /* ------section------ */
+
 
 
   }
