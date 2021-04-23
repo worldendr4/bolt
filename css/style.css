@@ -35,10 +35,10 @@ body {
 .flex {
   display: flex;
 }
-.block{
+.block {
   display: inline-block;
 }
-.inner{
+.inner {
   margin: 0 auto;
   width: 1100px;
   max-width: 100%;
@@ -130,7 +130,6 @@ body {
 .olw-tittle-inner {
   font-size: 24px;
   text-align: center;
-  font-family: Raleway;
 }
 .olw-images-inner {
   width: 1100px;
