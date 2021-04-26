@@ -257,8 +257,6 @@ body {
   padding-right: 10%;
   }
 
-
-
 @media screen and (min-width: 768px) and ( max-width:1199px){
 /* ------section------ */
 .section-inner {
@@ -314,7 +312,6 @@ body {
 .skill {
   margin-top: 88px;
 }
-
 }
 @media screen and (max-width: 767px) {
 /* ------header------ */
