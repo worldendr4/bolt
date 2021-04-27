@@ -1,15 +1,17 @@
 @charset "utf-8";
+
 /* ------汎用クラス------ */
+
 body {
-  font-family:Lato;
+  font-family: Lato;
 }
 
 .color-gle {
-  color:#74cfae;
+  color: #74cfae;
 }
 
 .color-gr {
-  color:#f2f2f2;
+  color: #f2f2f2;
 }
 
 .color-dg {
@@ -17,26 +19,26 @@ body {
 }
 
 .color-bk {
-  color:#333;
+  color: #333;
 }
 
 .color-wh {
-  color:#fff;
+  color: #fff;
 }
 
 .backcolor-gle {
-  background-color:#74cfae;
+  background-color: #74cfae;
 }
 
 .backcolor-gr {
-  background-color:#f2f2f2;
+  background-color: #f2f2f2;
 }
 
 .backcolor-dg {
-  background-color:#4e4e4e;
+  background-color: #4e4e4e;
 }
 
-.backcolor-fff{
+.backcolor-fff {
   background-color: #fff;
 }
 
@@ -58,7 +60,9 @@ body {
   max-width: 100%;
 }
 
+
 /* ------header------- */
+
 .bolt {
   font-size: 40px;
 }
@@ -102,10 +106,13 @@ body {
   padding-top: 70px;
 }
 
-.menu{
+.menu {
   display: none;
 }
+
+
 /* ------div------ */
+
 .tittle-inner {
   text-align: center;
   padding: 250px 0 250px;
@@ -118,12 +125,14 @@ body {
 }
 
 .fbt {
-  margin-top:20px;
+  margin-top: 20px;
   font-size: 30px;
   color: #c0c0c0;
 }
 
+
 /* ------section------ */
+
 .section-inner {
   justify-content: center;
   padding-top: 50px;
@@ -141,10 +150,10 @@ body {
 }
 
 .phone {
-  vertical-align:top;
+  vertical-align: top;
 }
 
-.in-tittle  {
+.in-tittle {
   font-size: 24px;
   margin-top: 10px;
   font-family: Raleway;
@@ -156,7 +165,9 @@ body {
   word-break: break-all;
 }
 
+
 /* ------article------ */
+
 .artical-inner {
   padding: 60px 0 70px;
 }
@@ -175,7 +186,7 @@ body {
 
 .olw-images-inner li {
   float: left;
-  margin-left:100px;
+  margin-left: 100px;
 }
 
 .clearfix::after {
@@ -193,12 +204,12 @@ body {
   transition: all .3s;
 }
 
-.img:hover{
+.img:hover {
   opacity: 1.0;
 }
 
 .img:nth-child(3n+1) {
-  margin-left:0px;
+  margin-left: 0px;
 }
 
 .img:nth-child(n+4) {
@@ -207,7 +218,7 @@ body {
 
 .mail-discrive-inner {
   margin-top: 90px;
-  display :flex;
+  display: flex;
   justify-content: center;
 }
 
@@ -230,10 +241,12 @@ body {
 }
 
 .mail-button:hover {
-  color:#333
+  color: #333
 }
 
+
 /* ------section------ */
+
 .skills-inner {
   padding: 70px 0 100px;
 }
@@ -265,7 +278,10 @@ body {
   font-size: 16px;
   font-family: Lato;
 }
+
+
 /* ------nav------ */
+
 .navi-inner {
   display: flex;
   align-items: center;
@@ -280,7 +296,7 @@ body {
 }
 
 .works-img {
-  color:#74cfae
+  color: #74cfae
 }
 
 .works-item:hover {
@@ -295,7 +311,10 @@ body {
   height: 100px;
   transition: all .3s;
 }
+
+
 /* ------footer------ */
+
 .footer-inner {
   padding: 20px 0 25px;
   text-align: right;
@@ -303,12 +322,12 @@ body {
 
 .logo {
   padding-right: 10%;
-  }
+}
 
+@media screen and (max-width:1199px) {
 
-
-@media screen and (max-width:1199px)  {
   /* ------section------ */
+
   .section-inner {
     padding-bottom: 25px;
   }
@@ -328,20 +347,21 @@ body {
   }
 
   /* ------article------ */
+
   .olw-images-inner {
     width: 100%;
   }
 
-  .olw-images-inner li{
+  .olw-images-inner li {
     float: none;
-    margin-inline:auto;
+    margin-inline: auto;
   }
 
   .img:nth-child(3n+1) {
-    margin-inline:auto;
+    margin-inline: auto;
   }
 
-  .img{
+  .img {
     width: 300px;
     margin-left: 100px;
   }
@@ -369,6 +389,7 @@ body {
   }
 
   /* ------section------ */
+
   .skill-gage-inner {
     -webkit-flex-direction: column;
   }
@@ -384,17 +405,21 @@ body {
   .skill {
     margin-top: 88px;
   }
+
 }
 
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+
   /* ------header------ */
+
   .bt {
-  font-size: 80px;
+    font-size: 80px;
   }
 
   .tittle-inner {
-  padding: 160px 0 130px;
+    padding: 160px 0 130px;
   }
+
   .fbt {
     width: 70%;
     margin-inline: auto;
@@ -420,9 +445,7 @@ body {
     z-index: 50;
   }
 
-  .drawer-open span,
-  .drawer-open span:before,
-  .drawer-open span:after {
+  .drawer-open span, .drawer-open span:before, .drawer-open span:after {
     content: '';
     display: block;
     height: 3px;
@@ -439,11 +462,15 @@ body {
   .drawer-open span:after {
     top: 8px;
   }
+
   /* ------section------ */
+  
   .in-text {
     word-break: normal;
   }
+
   /* ------nav------ */
+  
   .navi-inner {
     padding: 50px 0 50px;
     -webkit-flex-direction: column;
@@ -461,4 +488,5 @@ body {
   .works-img {
     font-size: 40px;
   }
+  
 }
