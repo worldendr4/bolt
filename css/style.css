@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* ------汎用クラス------ */
 body {
-  font-family:Raleway;
+  font-family:Lato;
 }
 
 .color-gle {
@@ -81,8 +81,7 @@ body {
 }
 
 .header-inner {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0 15px;
 }
 
 .contact {
@@ -109,13 +108,13 @@ body {
 /* ------div------ */
 .tittle-inner {
   text-align: center;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding: 250px 0 250px;
 }
 
 .bt {
   font-size: 90px;
   font-weight: 700;
+  font-family: Raleway;
 }
 
 .fbt {
@@ -148,29 +147,28 @@ body {
 .in-tittle  {
   font-size: 24px;
   margin-top: 10px;
+  font-family: Raleway;
 }
 
 .in-text {
   margin-top: 35px;
   font-size: 20px;
   word-break: break-all;
-  font-family: Lato;
 }
 
 /* ------article------ */
 .artical-inner {
-  padding-top: 60px;
-  padding-bottom: 70px;
+  padding: 60px 0 70px;
 }
 
 .olw-tittle-inner {
   font-size: 24px;
   text-align: center;
+  font-family: Raleway;
 }
 
 .olw-images-inner {
   width: 1100px;
-  margin: auto;
   list-style: none;
   margin-top: 40px;
 }
@@ -211,7 +209,6 @@ body {
   margin-top: 90px;
   display :flex;
   justify-content: center;
-  align-items: start;
 }
 
 .mail-discrive-text {
@@ -238,8 +235,7 @@ body {
 
 /* ------section------ */
 .skills-inner {
-  padding-top: 70px;
-  padding-bottom: 100px;
+  padding: 70px 0 100px;
 }
 
 .our-skills-text-inner {
@@ -274,15 +270,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 200px 0 200px;
 }
 
 .navi-inner-inner {
   list-style: none;
   text-align: center;
   font-size: 30px;
-  transition: all .3s;
 }
 
 .works-img {
@@ -299,11 +293,11 @@ body {
   justify-content: center;
   width: 185px;
   height: 100px;
+  transition: all .3s;
 }
 /* ------footer------ */
 .footer-inner {
-  padding-top: 20px;
-  padding-bottom: 25px;
+  padding: 20px 0 25px;
   text-align: right;
 }
 
@@ -335,7 +329,6 @@ body {
 
   /* ------article------ */
   .olw-images-inner {
-    text-align: center;
     width: 100%;
   }
 
@@ -368,16 +361,11 @@ body {
 
   .text {
     width: auto;
-    text-align: center;
   }
 
   .mail-button {
     margin: auto;
     margin-top: 40px;
-  }
-
-  .width-full {
-    width: auto;
   }
 
   /* ------section------ */
@@ -405,8 +393,7 @@ body {
   }
 
   .tittle-inner {
-  padding-top: 160px;
-  padding-bottom: 130px;
+  padding: 160px 0 130px;
   }
   .fbt {
     width: 70%;
@@ -418,7 +405,6 @@ body {
   }
 
   .drawer {
-    display: block;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -459,8 +445,7 @@ body {
   }
   /* ------nav------ */
   .navi-inner {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 0 50px;
     -webkit-flex-direction: column;
   }
 
